@@ -1,0 +1,24 @@
+.cal-screen {
+	background-color: whitesmoke; 
+	border: 5px solid gray; 
+	color: darkblue;
+	text-align: center;
+	font-family: monospace, fantasy; 
+	border-radius: 30px;
+	width: 80%;
+	margin: auto;
+}
+
+#press {
+	background-color: skyblue; 
+	font-family: monospace; 
+	font-size: 16px; 
+	border-radius: 10px;
+	padding: 4px 16px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+#press:hover{
+	background-color: rgb(135, 182, 235);
+}

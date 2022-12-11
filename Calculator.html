@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator Practice</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="cal-screen">
+		<h1>JS Calculator</h1>
+		<form action="#">
+			<div>Number 1<br><input id="number1" type="text"></div>
+			<div>Number 2<br><input id="number2" type="text"></div>
+
+			<div>Operate Way?<br>
+				<select id = "operate" onchange="setButton(this.value)">
+					<option value="plus"> + </option>
+					<option value="minus"> - </option>
+					<option value="multiply"> * </option>
+					<option value="divide"> / </option>
+				</select>
+			</div>
+
+			<button id="press" value="Add" onclick="calculate()">Add</button>
+		</form>
+		<div>
+			<p id="result">Result = </p>
+		</div>
+	</div>
+
+	<script src="style.js"></script>
+
+</body>
+</html>
